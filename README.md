@@ -17,6 +17,20 @@ https://localhost:7061/api/Auth/login
 body 
 
 {
-  Username:"string",
-  Password:"string"
+  username:"string",
+  password:"string"
+}
+
+for admin user
+
+{
+  "username":"admin1",
+  "password":"admin1pass"
+}
+
+for default user
+
+{
+  "username":"player1",
+  "password":"player1pass"
 }
